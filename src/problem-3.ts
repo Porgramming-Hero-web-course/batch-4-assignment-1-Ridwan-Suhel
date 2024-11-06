@@ -7,8 +7,8 @@
     const countWordOccurrences: CountWord = (sentence, word) => {
         const lowerCaseSentence: string = sentence.toLowerCase();
         const lowerCaseWord: string = word.toLowerCase();
-        const sentenceSplit: number = lowerCaseSentence.split(lowerCaseWord).length - 1;
-        return sentenceSplit 
+        const countOccurence: number = lowerCaseSentence.split(lowerCaseWord).length - 1;
+        return countOccurence 
     }
 
     // call the function here with a sentence and a word as arguement of countWordOccurrences function
